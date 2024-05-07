@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    color: white;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #1c70d3;
+    text-shadow: 0 0 10px #1d90f5;
+    transition: 0.5s;
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: #23232e;
+    height: 8vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 10%;
+    width: 100%;
+    z-index: 10;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+    cursor: pointer;
+}
+
+#inicio {
+    background: #23232e;
+    text-align: center;
+    min-height: 100vh;
+    padding-top: 7em;
+    font-size: 50px;
+    color: white;
+}
+
+#sobre {
+    background: #23232e;
+    text-align: center;
+    min-height: 100vh;
+    padding-top: 5em;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 20px;
+    color: white;
+}
+
+#sobre h2 {
+    font-size: 50px;
+}
+
+.eu {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    padding: 30px;
+}
+
+.eu2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding: 30px;
+}
+
+.eu3 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding: 30px;
+}
+
+#contato {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    align-items: end;
+    padding: 1rem;
+    padding-bottom: 40px;
+    background: #23232e;
+}
+
+#contato h2 {
+    font-size: 50px;
+    color: white;
+}
+
+#projetos h2 {
+    font-size: 50px;
+    color: white;
+}
+
+#projetos p {
+    font-size: 30px;
+}
+
+#projetos {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    padding: 1rem;
+    background: #23232e;
+    color: white;
+}
+
+#projetos img {
+    border-radius: 50%;
+    height: 100px;
+}
+
+#projetos img:hover {
+    transition: 0.3s;
+    box-shadow: 0 0 10px white;
+}
+
+form {
+    width: 100%;
+    max-width: 30rem;
+}
+
+label,
+input,
+textarea,
+button {
+    display: block;
+}
+
+input,
+textarea,
+button {
+    width: 100%;
+    font: inherit;
+    padding: 1.25rem;
+    font-weight: 700;
+}
+
+input,
+textarea {
+    margin-bottom: 1rem;
+    color: white;
+    background: #323644;
+    border: 0.125rem solid transparent;
+    border-radius: 1.125rem;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:hover,
+input:focus,
+textarea:hover,
+textarea:focus {
+    outline: none;
+    border-color: #1d90f5;
+    box-shadow: 0 0 0 0.3125rem #26344a;
+}
+
+label {
+    margin-bottom: 0.5rem;
+    color: #84868f;
+}
+
+textarea {
+    min-height: 12.5rem;
+    resize: vertical;
+}
+
+button {
+    border: none;
+    border-radius: 99px;
+    color: white;
+    background: #1d90f5;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover,
+button:focus {
+    outline: none;
+    background: #1c70d3;
+    box-shadow: 0 0 10px #1d90f5;
+}
+
+button:disabled {
+    cursor: not-allowed;
+    background: #555b69;
+}
+
+.success,
+.error {
+    text-align: center;
+}
+
+.success {
+    color: greenyellow;
+    text-shadow: 0 0 10px greenyellow;
+}
+
+.error {
+    color: tomato;
+    text-shadow: 0 0 10px tomato;
+}
